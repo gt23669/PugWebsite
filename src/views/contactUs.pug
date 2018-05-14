@@ -1,0 +1,11 @@
+
+html 
+    head
+        title=title
+    body
+        div(class=["myContainer","roundedCorner"])
+            h1(id="myH1")=h1Text
+            div(class="contacts")
+                ul
+                    each contact in contactData
+                        li= contact.name+": "+contact.phone
