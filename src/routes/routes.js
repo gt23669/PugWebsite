@@ -10,6 +10,27 @@ router.route("/").get(function (request, response) {
 
 }
 );
+router.route("/page2").get(function (request, response) {
+    // response.sendFile(__dirname + "/views/index.html");
+    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
+    response.render('index', data);
+
+}
+);
+router.route("/page3").get(function (request, response) {
+    // response.sendFile(__dirname + "/views/index.html");
+    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
+    response.render('index', data);
+
+}
+);
+router.route("/page4").get(function (request, response) {
+    // response.sendFile(__dirname + "/views/index.html");
+    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
+    response.render('index', data);
+
+}
+);
 router.route("/contactUs").get(
     function (request, response) {
         //var data = repo.getContactUsData();
@@ -34,5 +55,6 @@ router.route("/contactUs").get(
         response.render("contactUs", model);
     }
 );
+
 
 module.exports = router;
