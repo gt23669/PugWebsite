@@ -5,22 +5,22 @@ var router = express.Router();
 
 router.route("/").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
+    var data = { title: "Pug is the best Index Page", h1Text: "Neumont Kangaroos Kickball Team", contactus: "Contact Us" };
     response.render('index', data);
 
 }
 );
-router.route("/page2").get(function (request, response) {
+router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
-    response.render('index', data);
+    var data = { title: "Pug is the best Index Page", h1Text: "Roster" };
+    response.render('roster', data);
 
 }
 );
-router.route("/page3").get(function (request, response) {
+router.route("/records").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
-    response.render('index', data);
+    var data = { title: "Pug is the best Index Page", h1Text: "Previous Seasons" };
+    response.render('records', data);
 
 }
 );
