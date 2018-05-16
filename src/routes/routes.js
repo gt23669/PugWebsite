@@ -5,28 +5,28 @@ var router = express.Router();
 
 router.route("/").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Neumont Kangaroos Kickball Team", contactus: "Contact Us" };
+    var data = { title: "Index Page", h1Text: "Neumont Kangaroos Kickball Team", contactus: "Contact Us" };
     response.render('index', data);
 
 }
 );
 router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Roster" };
+    var data = { title: "Team Roster", h1Text: "Roster" };
     response.render('roster', data);
 
 }
 );
 router.route("/records").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Previous Seasons" };
+    var data = { title: "Team Records", h1Text: "Previous Seasons" };
     response.render('records', data);
 
 }
 );
-router.route("/page4").get(function (request, response) {
+router.route("/orders").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Pug is the best Index Page", h1Text: "Text in the h1 Tag" };
+    var data = { title: "Orders Page", h1Text: "Team Orders Page" };
     response.render('index', data);
 
 }
@@ -37,17 +37,17 @@ router.route("/contactUs").get(
 
         var model = {
             title: "Contact Us Page",
-            h1Text: "Contact Us Page h1 Text",
+            h1Text: "Contact Us Here!",
             contactData: [
                 {
-                    name: "Susan",
-                    phone: "555-555-5555",
-                    email: "SueDawg@here.now"
+                    name: "Juan",
+                    phone: "123-456-7890",
+                    email: "Jtaguilar@student.neumont.edu"
                 },
                 {
-                    name: "Pete",
-                    phone: "555-555-6666",
-                    email: "PeteIsAwesome@here.now"
+                    name: "DCorum",
+                    phone: "098-765-4321",
+                    email: "Dcorum@student.neumont.edu"
                 }
             ]
 
