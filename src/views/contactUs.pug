@@ -15,3 +15,14 @@ html
                 li: a(href="/roster") Roster
                 li: a(href="/records") Previous Seasons
                 li: a(href="/orders") Orders
+        div(class="contactData")
+            each contact, index in contactData
+                div(class="contacts")
+                    div= contact.name
+                    div= contact.phone
+                    div= contact.email
+        
+
+
+//- each contact in contactData
+                        li = contact.name+" - "+contact.phone
