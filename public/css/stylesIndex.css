@@ -44,3 +44,7 @@ li{
     padding: 15px;;
     text-align: center;
 }
+
+.contactData{
+    white-space: pre;
+}
