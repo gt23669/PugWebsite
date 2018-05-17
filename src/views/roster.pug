@@ -14,5 +14,13 @@ html
                 li: a(href="/roster") Roster
                 li: a(href="/records") Previous Seasons
                 li: a(href="/orders") Orders
-            //- ol(class="teamRoster")
-
+        div(class="teamRoster")
+            each member in roster
+                div(class="teamMember")
+                    table(class="teamTable")
+                        tr
+                            td=member.name
+                            td=member.number
+                            td=member.position
+                            div(class="skill")=member.skill
+                            //- need photo of each teammember
