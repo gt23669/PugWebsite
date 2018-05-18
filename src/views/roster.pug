@@ -7,6 +7,7 @@ html
     body
         div(class=["myContainer","roundedCorner"])
             h1(id="myH1")=h1Text
+<<<<<<< HEAD
           div(class="centerContainer")
             ul(class="categories")
                     li(class="homeT"): a(href="/") Home   
@@ -16,3 +17,22 @@ html
                     li(class="ordersT"): a(href="/orders") Orders
             //- ol(class="teamRoster")
 
+=======
+        div(class=["categories"])
+            ul
+                li: a(href="/") Home
+                li: a(href="/contactUs") Contact Us 
+                li: a(href="/roster") Roster
+                li: a(href="/records") Previous Seasons
+                li: a(href="/orders") Orders
+        div(class="teamRoster")
+            each member in roster
+                div(class="teamMember")
+                    table(class="teamTable")
+                        tr
+                            td=member.name
+                            td=member.number
+                            td=member.position
+                            div(class="skill")=member.skill
+                            //- need photo of each teammember
+>>>>>>> 41dd688d4a72a64126d6a475d31c456d33dd7a04
