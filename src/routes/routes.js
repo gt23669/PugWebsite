@@ -14,76 +14,90 @@ router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = {
         title: "Team Roster", h1Text: "Roster", roster: [{
+            image:".\css\images\Fox.jpg",
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
             skill:""
         }, {
+            image:"",
             name: "Juan",
             position: "Outfield Left",
             number: 1,
             skill:"Can fold fingers behind each other"
         }, {
+            image:"",
             name: "Daniel",
             position: "Outfield Right",
             number: 2,
             skill:"Wiggle Ears"
         }, {
             name: "Mr. Krebs",
-            position: "",
+            position: "2nd Base",
             number: 3,
-            skill:""
+            skill:"Competion Ballroom Dancer"
         }, {
+            image:"",
             name: "Mr. Cox",
             position: "",
             number: 4,
             skill:""
         }, {
+            image:"",
             name: "Mrs. Thompson",
             position: "",
             number: 5,
             skill:""
         }, {
+            image:"",
             name: "Mr. Warner",
             position: "",
             number: 6,
             skill:""
         }, {
+            image:"",
             name: "Mr. Kohler",
-            position: "",
+            position: "OutField Center",
             number: 7,
-            skill:""
+            skill:"6' WingSpan"
         }, {
+            image:"",
             name: "Mr. Rob",
             position: "",
             number: 8,
             skill:""
         }, {
+            image:"",
             name: "Ben",
             position: "Bench",
             number: 9,
             skill:""
         }, {
+            image:"",
             name: "Jorden",
             position: "Shortstop Left",
             number: 10,
             skill:""
         }, {
+            image:"",
             name: "Mr. Beatty",
             position: "",
             number: 11,
             skill:""
         }, {
+            image:"",
             name: "Mr. Harrison",
             position: "",
             number: 12,
             skill:""
         }, {
+            image:"",
             name: "Mr. Bingham",
             position: "",
             number: 13,
             skill:""
         }, {
+            image:"",
             name: "JP",
             position: "",
             number: 14,
