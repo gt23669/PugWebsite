@@ -14,7 +14,7 @@ router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = {
         title: "Team Roster", h1Text: "Roster", roster: [{
-            image:".\css\images\Fox.jpg",
+            image:"/css/images/Fox.png",
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
@@ -38,10 +38,10 @@ router.route("/roster").get(function (request, response) {
             skill:"Competion Ballroom Dancer"
         }, {
             image:"",
-            name: "Mr. Cox",
-            position: "",
+            name: "Dr. Kolher",
+            position: "OutField Center",
             number: 4,
-            skill:""
+            skill:"6' Wing Span"
         }, {
             image:"",
             name: "Mrs. Thompson",
@@ -51,9 +51,9 @@ router.route("/roster").get(function (request, response) {
         }, {
             image:"",
             name: "Mr. Warner",
-            position: "",
+            position: "3rd Base",
             number: 6,
-            skill:""
+            skill:"Can sing in 2 tones"
         }, {
             image:"",
             name: "Mr. Kohler",
@@ -62,10 +62,10 @@ router.route("/roster").get(function (request, response) {
             skill:"6' WingSpan"
         }, {
             image:"",
-            name: "Mr. Rob",
-            position: "",
+            name: "Mr. Fletcher",
+            position: "Pitcher",
             number: 8,
-            skill:""
+            skill:"Speakes loudly"
         }, {
             image:"",
             name: "Ben",
@@ -139,6 +139,11 @@ router.route("/contactUs").get(
                     name: "DCorum",
                     phone: "098-765-4321",
                     email: "Dcorum@student.neumont.edu"
+                },
+                {
+                    name: "NCKickballHQ",
+                    phone: "555-555-5555",
+                    email: "NCKickballHQ@neumont.edu"
                 }
             ]
 
