@@ -18,90 +18,91 @@ router.route("/roster").get(function (request, response) {
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Juan",
             position: "Outfield Left",
             number: 1,
             skill:"Can fold fingers behind each other"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Daniel",
             position: "Outfield Right",
             number: 2,
             skill:"Wiggle Ears"
         }, {
+            image:"/css/images/Krebs.png",
             name: "Mr. Krebs",
             position: "2nd Base",
             number: 3,
             skill:"Competion Ballroom Dancer"
         }, {
-            image:"",
-            name: "Dr. Kolher",
+            image:"/css/images/Kohler.png",
+            name: "Dr. Kohler",
             position: "OutField Center",
             number: 4,
             skill:"6' Wing Span"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mrs. Thompson",
-            position: "",
+            position: "Empty Position Field",
             number: 5,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Warner.png",
             name: "Mr. Warner",
             position: "3rd Base",
             number: 6,
             skill:"Can sing in 2 tones"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mr. Kohler",
             position: "OutField Center",
             number: 7,
             skill:"6' WingSpan"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mr. Fletcher",
             position: "Pitcher",
             number: 8,
             skill:"Speakes loudly"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Ben",
             position: "Bench",
             number: 9,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Jorden",
             position: "Shortstop Left",
             number: 10,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mr. Beatty",
-            position: "",
+            position: "Empty Position Field",
             number: 11,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mr. Harrison",
-            position: "",
+            position: "Empty Position Field",
             number: 12,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "Mr. Bingham",
-            position: "",
+            position: "Empty Position Field",
             number: 13,
-            skill:""
+            skill:"Empty Skill Field"
         }, {
-            image:"",
+            image:"/css/images/Fox.png",
             name: "JP",
-            position: "",
+            position: "Empty Position Field",
             number: 14,
-            skill:""
+            skill:"Empty Skill Field"
         }]
     };
     response.render('roster', data);
