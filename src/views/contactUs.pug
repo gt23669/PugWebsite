@@ -18,9 +18,9 @@ html
         div(class="contactData")
             each contact, index in contactData
                 div(class="contacts")
-                    div= contact.name
-                    div= contact.phone
-                    div= contact.email
+                    div(class="contactname")= contact.name
+                    div(class="contactphone")= contact.phone
+                    div(class="contactemail")= contact.email
         
 
 

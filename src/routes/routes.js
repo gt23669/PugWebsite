@@ -20,13 +20,13 @@ router.route("/roster").get(function (request, response) {
             number: 0,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Juan",
             position: "Outfield Left",
             number: 1,
             skill:"Can fold fingers behind each other"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Daniel",
             position: "Outfield Right",
             number: 2,
@@ -44,7 +44,7 @@ router.route("/roster").get(function (request, response) {
             number: 4,
             skill:"6' Wing Span"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Mrs. Thompson",
             position: "Empty Position Field",
             number: 5,
@@ -56,49 +56,49 @@ router.route("/roster").get(function (request, response) {
             number: 6,
             skill:"Can sing in 2 tones"
         }, {
-            image:"/css/images/Fox.png",
-            name: "Mr. Kohler",
-            position: "OutField Center",
+            image:"/css/images/Blank.png",
+            name: "Empty Name Field",
+            position: "Empty Postitino field",
             number: 7,
-            skill:"6' WingSpan"
+            skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Mr. Fletcher",
             position: "Pitcher",
             number: 8,
             skill:"Speakes loudly"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Ben",
             position: "Bench",
             number: 9,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Jorden",
             position: "Shortstop Left",
             number: 10,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Mr. Beatty",
             position: "Empty Position Field",
             number: 11,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Mr. Harrison",
             position: "Empty Position Field",
             number: 12,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "Mr. Bingham",
             position: "Empty Position Field",
             number: 13,
             skill:"Empty Skill Field"
         }, {
-            image:"/css/images/Fox.png",
+            image:"/css/images/Blank.png",
             name: "JP",
             position: "Empty Position Field",
             number: 14,
