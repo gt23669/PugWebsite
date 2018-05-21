@@ -4,6 +4,11 @@ h1{
     text-align: center;
 }
 
+.indexwelcome{
+font-size: 50px;
+font-family: Oxygen;
+}
+
 .centerContainer{
     text-align: center;
     background-color: orange;
