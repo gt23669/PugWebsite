@@ -59,3 +59,9 @@ h1{
 .contactData{
     white-space: pre;
 }
+
+.teamTable{
+    align: auto;
+    border: solid black 1px;
+    
+}
