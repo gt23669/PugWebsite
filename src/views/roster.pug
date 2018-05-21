@@ -14,9 +14,9 @@ html
                 li: a(href="/records") Previous Seasons
                 li: a(href="/orders") Orders
         div(class="teamRoster")
-            each member in roster
-                div(class="teamMember")
-                    table(class="teamTable")
+            table(class="teamTable")
+                each member in roster
+                    div(class="teamMember")
                         tr
                             td
                                 //- img(src="../public/css/images/Fox.jpg")
@@ -25,4 +25,4 @@ html
                             td(class="tablemembernumber")=member.number
                             td(class="tablememberposition")=member.position
                             td(class="tableskill")=member.skill
-                            //- need photo of each teammember
+                                //- need photo of each teammember

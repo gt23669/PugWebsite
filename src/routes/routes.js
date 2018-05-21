@@ -72,7 +72,7 @@ router.route("/roster").get(function (request, response) {
             name: "Ben",
             position: "Bench",
             number: 9,
-            skill: "Empty Skill Field"
+            skill: "Writes Music"
         }, {
             image: "/css/images/Blank.png",
             name: "Jorden",
