@@ -18,14 +18,11 @@ html
                 each member in roster
                     div(class="teamMember")
                         tr
-                            //- img(src="../public/css/images/Fox.jpg")
-                            td(img=(src=member.image class="tableteamimage"))                                
+                            td  
+                                //- img(src="../public/css/images/Fox.jpg")
+                                img(src=member.image class="tableteamimage")                              
                             td(class="tablemembername")=member.name
                             td(class="tablemembernumber")=member.number
                             td(class="tablememberposition")=member.position
                             td(class="tableskill")=member.skill
-<<<<<<< HEAD
                              //- need photo of each teammember
-=======
-                                //- need photo of each teammember
->>>>>>> d57a42a2962b4ef4d5716f94dcb8646786928deb

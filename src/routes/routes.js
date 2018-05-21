@@ -14,11 +14,17 @@ router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = {
         title: "Team Roster", h1Text: "Roster", roster: [{
+            image:"/css/images/Names.png",
+            name: "Name",
+            position: "Position",
+            number: "Number",
+            skill: "Special Skill"
+        }, {
             image: "/css/images/FoxJersey.png",
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
-            skill: "Empty Skill Field"
+            skill: "Creates a water droplet sound with mouth."
         }, {
             image: "/css/images/Blank.png",
             name: "Juan",
@@ -70,7 +76,7 @@ router.route("/roster").get(function (request, response) {
         }, {
             image: "/css/images/Blank.png",
             name: "Ben",
-            position: "Bench",
+            position: "Right Bench",
             number: 9,
             skill: "Writes Music"
         }, {
