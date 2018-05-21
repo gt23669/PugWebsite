@@ -135,7 +135,7 @@ router.route("/records").get(function (request, response) {
             record: "Home:'9' Visiting:'5'"
         }, {
             year: "2017",
-            record: "Home:'15' Visiting:'11'"
+            record: "Home:'10' Visiting:'11'"
         }]
     };
     response.render('records', data);
@@ -144,8 +144,32 @@ router.route("/records").get(function (request, response) {
 );
 router.route("/orders").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Orders Page", h1Text: "Team Orders Page" };
-    response.render('index', data);
+    var data = { title: "Orders Page", h1Text: "Team Orders Page", items:[{
+        image:"/css/images/Blank.png",
+        item:"Hat",
+        price:1.00
+    },
+    {
+        image:"/css/images/Blank.png",
+        item:"Shirt",
+        price:2.00
+    },
+    {
+        image:"/css/images/Blank.png",
+        item:"Shoes",
+        price:3.00
+    },
+    {
+        image:"/css/images/Blank.png",
+        item:"Gloves",
+        price:4.00
+    },
+    {
+        image:"/css/images/Blank.png",
+        item:"Pants",
+        price:5.00
+    },] };
+    response.render('orders', data);
 
 }
 );
