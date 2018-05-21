@@ -14,94 +14,95 @@ router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = {
         title: "Team Roster", h1Text: "Roster", roster: [{
-            image:".\css\images\Fox.jpg",
+            image: "/css/images/Fox.png",
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Juan",
             position: "Outfield Left",
             number: 1,
-            skill:"Can fold fingers behind each other"
+            skill: "Can fold fingers behind each other"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Daniel",
             position: "Outfield Right",
             number: 2,
-            skill:"Wiggle Ears"
+            skill: "Wiggle Ears"
         }, {
+            image: "/css/images/Krebs.png",
             name: "Mr. Krebs",
             position: "2nd Base",
             number: 3,
-            skill:"Competion Ballroom Dancer"
+            skill: "Competion Ballroom Dancer"
         }, {
-            image:"",
-            name: "Mr. Cox",
-            position: "",
-            number: 4,
-            skill:""
-        }, {
-            image:"",
-            name: "Mrs. Thompson",
-            position: "",
-            number: 5,
-            skill:""
-        }, {
-            image:"",
-            name: "Mr. Warner",
-            position: "",
-            number: 6,
-            skill:""
-        }, {
-            image:"",
-            name: "Mr. Kohler",
+            image: "/css/images/Kohler.png",
+            name: "Dr. Kohler",
             position: "OutField Center",
-            number: 7,
-            skill:"6' WingSpan"
+            number: 4,
+            skill: "6' Wing Span"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
+            name: "Mrs. Thompson",
+            position: "Empty Position Field",
+            number: 5,
+            skill: "Empty Skill Field"
+        }, {
+            image: "/css/images/Warner.png",
+            name: "Mr. Warner",
+            position: "3rd Base",
+            number: 6,
+            skill: "Can sing in 2 tones"
+        }, {
+            image: "/css/images/Blank.png",
             name: "Mr. Rob",
-            position: "",
-            number: 8,
-            skill:""
+            position: "Empty Postitino field",
+            number: 7,
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
+            name: "Mr. Fletcher",
+            position: "Pitcher",
+            number: 8,
+            skill: "Speakes loudly"
+        }, {
+            image: "/css/images/Blank.png",
             name: "Ben",
             position: "Bench",
             number: 9,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Jorden",
             position: "Shortstop Left",
             number: 10,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Mr. Beatty",
-            position: "",
+            position: "Empty Position Field",
             number: 11,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Mr. Harrison",
-            position: "",
+            position: "Empty Position Field",
             number: 12,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "Mr. Bingham",
-            position: "",
+            position: "Empty Position Field",
             number: 13,
-            skill:""
+            skill: "Empty Skill Field"
         }, {
-            image:"",
+            image: "/css/images/Blank.png",
             name: "JP",
-            position: "",
+            position: "Empty Position Field",
             number: 14,
-            skill:""
+            skill: "Empty Skill Field"
         }]
     };
     response.render('roster', data);
@@ -110,7 +111,33 @@ router.route("/roster").get(function (request, response) {
 );
 router.route("/records").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
-    var data = { title: "Team Records", h1Text: "Previous Seasons" };
+    var data = {
+        title: "Team Records", h1Text: "Previous Seasons", records: [{
+            year: "2010",
+            record: "Home:'20' Visiting:'10'"
+        }, {
+            year: "2011",
+            record: "Home:'25' Visiting:'5'"
+        }, {
+            year: "2012",
+            record: "Home:'14' Visiting:'3'"
+        }, {
+            year: "2013",
+            record: "Home:'18' Visiting:'16'"
+        }, {
+            year: "2014",
+            record: "Home:'8' Visiting:'11'"
+        }, {
+            year: "2015",
+            record: "Home:'21' Visiting:'10'"
+        }, {
+            year: "2016",
+            record: "Home:'9' Visiting:'5'"
+        }, {
+            year: "2017",
+            record: "Home:'15' Visiting:'11'"
+        }]
+    };
     response.render('records', data);
 
 }
@@ -139,6 +166,11 @@ router.route("/contactUs").get(
                     name: "DCorum",
                     phone: "098-765-4321",
                     email: "Dcorum@student.neumont.edu"
+                },
+                {
+                    name: "NCKickballHQ",
+                    phone: "555-555-5555",
+                    email: "NCKickballHQ@neumont.edu"
                 }
             ]
 

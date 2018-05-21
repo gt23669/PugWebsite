@@ -14,4 +14,11 @@ html
                     li(class="rosterT"): a(href="/roster") Roster   
                     li(class="recordsT"): a(href="/records") Previous Season    
                     li(class="ordersT"): a(href="/orders") Orders
-
+        div(class="teamrecord")
+            each record in records
+                div(class="recordmember")
+                    table(class="recordtable")
+                        tr                                
+                            td(class="recordmembername")=record.year
+                            td(class="teammemberrecord")=record.record
+                            //- need photo of each teammember
