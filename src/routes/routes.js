@@ -14,16 +14,22 @@ router.route("/roster").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = {
         title: "Team Roster", h1Text: "Roster", roster: [{
+            image:"/css/images/Names.png",
+            name: "Name",
+            position: "Position",
+            number: "Number",
+            skill: "Special Skill"
+        }, {
             image: "/css/images/FoxJersey.png",
             name: "Mr. Fox",
             position: "Catcher",
             number: 0,
-            skill: "Can make a water dropplet sound"
+            skill: "Creates a water droplet sound with mouth."
         }, {
             image: "/css/images/Blank.png",
             name: "Juan",
             position: "Outfield Left",
-            number: 1,
+            number: 1+" (lol)",
             skill: "Can fold fingers behind each other"
         }, {
             image: "/css/images/Blank.png",
@@ -38,7 +44,7 @@ router.route("/roster").get(function (request, response) {
             number: 3,
             skill: "Competion Ballroom Dancer"
         }, {
-            image: "/css/images/Kohler.png",
+            image: "/css/images/KohlerJersey.png",
             name: "Dr. Kohler",
             position: "OutField Center",
             number: 4,
@@ -50,7 +56,7 @@ router.route("/roster").get(function (request, response) {
             number: 5,
             skill: "Blank Skill Field"
         }, {
-            image: "/css/images/Warner.png",
+            image: "/css/images/WarnerJersey.png",
             name: "Mr. Warner",
             position: "3rd Base",
             number: 6,
@@ -70,7 +76,7 @@ router.route("/roster").get(function (request, response) {
         }, {
             image: "/css/images/BenJersey.png",
             name: "Ben",
-            position: "Bench",
+            position: "Right Bench",
             number: 9,
             skill: "Writes Music"
         }, {

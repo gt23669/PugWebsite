@@ -3,6 +3,14 @@ h1{
     font-size: 40px;
     text-align: center;
 }
+body{
+    background-image: url("/css/images/Blank.png");
+}
+
+.indexwelcome{
+font-size: 50px;
+font-family: Oxygen;
+}
 
 .centerContainer{
     text-align: center;
@@ -58,4 +66,20 @@ h1{
 
 .contactData{
     white-space: pre;
+}
+
+.teamTable{
+    align: auto;
+    border: solid black 1px;
+    border-collapse: collapse;
+    margin: 0px auto;
+    
+}
+
+td{
+    border: solid goldenrod 5px;
+    text-align: center;
+    color: orange;
+    padding: 10px;
+    background: black;
 }
