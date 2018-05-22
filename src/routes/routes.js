@@ -50,11 +50,11 @@ router.route("/roster").get(function (request, response) {
             number: 4,
             skill: "6' Wing Span"
         }, {
-            image: "/css/images/Blank.png",
+            image: "/css/images/ThompsonJersey.png",
             name: "Mrs. Thompson",
-            position: "Empty Position Field",
+            position: "Blank Position field",
             number: 5,
-            skill: "Empty Skill Field"
+            skill: "Blank Skill Field"
         }, {
             image: "/css/images/WarnerJersey.png",
             name: "Mr. Warner",
@@ -62,11 +62,11 @@ router.route("/roster").get(function (request, response) {
             number: 6,
             skill: "Can sing in 2 tones"
         }, {
-            image: "/css/images/Blank.png",
-            name: "Mr. Rob",
-            position: "Empty Postitino field",
+            image: "/css/images/DennisJersey.png",
+            name: "Dennis",
+            position: "Bench",
             number: 7,
-            skill: "Empty Skill Field"
+            skill: "Can twist hand 360° on a table"
         }, {
             image: "/css/images/Blank.png",
             name: "Mr. Fletcher",
@@ -74,7 +74,7 @@ router.route("/roster").get(function (request, response) {
             number: 8,
             skill: "Speakes loudly"
         }, {
-            image: "/css/images/Blank.png",
+            image: "/css/images/BenJersey.png",
             name: "Ben",
             position: "Right Bench",
             number: 9,
@@ -84,13 +84,13 @@ router.route("/roster").get(function (request, response) {
             name: "Jorden",
             position: "Shortstop Left",
             number: 10,
-            skill: "Empty Skill Field"
+            skill: "Chess"
         }, {
-            image: "/css/images/Blank.png",
-            name: "Mr. Beatty",
-            position: "Empty Position Field",
+            image: "/css/images/ShaneJersey.png",
+            name: "Shane",
+            position: "1st Base",
             number: 11,
-            skill: "Empty Skill Field"
+            skill: "Musician"
         }, {
             image: "/css/images/Blank.png",
             name: "Mr. Harrison",
@@ -98,9 +98,9 @@ router.route("/roster").get(function (request, response) {
             number: 12,
             skill: "Empty Skill Field"
         }, {
-            image: "/css/images/Blank.png",
-            name: "Mr. Bingham",
-            position: "Empty Position Field",
+            image: "/css/images/CoxJersey.png",
+            name: "Mr. Cox",
+            position: "Played water polo",
             number: 13,
             skill: "Empty Skill Field"
         }, {
