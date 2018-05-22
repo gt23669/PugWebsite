@@ -2,17 +2,18 @@ html
     head
         title=title
         script(src="")
-        link(rel="stylesheet", href="/css/stylesIndex.css")
+        link(rel="stylesheet", href="/css/stylesRoster.css")
+        link(rel="stylesheet", href="/css/stylesMenu.css")
     body
         div(class=["myContainer","roundedCorner"])
             h1(id="myH1")=h1Text
         div(class="centerContainer")
             ul(class="categories")
-                li: a(href="/") Home
-                li: a(href="/contactUs") Contact Us 
-                li: a(href="/roster") Roster
-                li: a(href="/records") Previous Seasons
-                li: a(href="/orders") Orders
+                 li(class="homeT"): a(href="/") Home   
+                    li(class="contactT"): a(href="/contactUs") Contact Us  
+                    li(class="rosterT"): a(href="/roster") Roster   
+                    li(class="recordsT"): a(href="/records") Previous Season    
+                    li(class="ordersT"): a(href="/orders") Orders
         div(class="teamRoster")
             table(class="teamTable")
                 each member in roster
