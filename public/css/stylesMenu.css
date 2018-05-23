@@ -1,6 +1,6 @@
 .centerContainer{
     text-align: center;
-    background-color: rgba(255, 165, 0, .927);
+    background-color: rgba(255, 165, 0, .85);
     /* min-width: 955px; */
     /* opacity: .7; */
 }
@@ -17,7 +17,11 @@
 .categories li{
     display: inline-block;
     margin: 5%;
+    text-decoration: none;
+}
 
+a{
+    text-decoration: none;
 }
 
 .homeT:hover{
@@ -25,29 +29,28 @@
     font-weight: bold;
     -webkit-background-clip:content-box;
     background-color: gold;
-   
 }
 
 .contactT:hover{
     color: gray;
-    font-size: 16px;
+    font-weight: bold;
     background-color: gold;
 }
 
 .recordsT:hover{
     color: gray;
-    font-size: 16px;
+    font-weight: bold;
     background-color: gold;
 }
 
 .rosterT:hover{
     color: gray;
-    font-size: 16px;
+    font-weight: bold;
     background-color: gold;
 }
 
 .ordersT:hover{
     color: gray;
-    font-size: 16px;
+    font-weight: bold;
     background-color: gold;
 }
