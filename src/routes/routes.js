@@ -138,7 +138,7 @@ router.route("/records").get(function (request, response) {
             record: "Home:'21' Visiting:'10'"
         }, {
             year: "2016",
-            record: "Home:'9' Visiting:'5'"
+            record: "Home:'9' Visiting:'15'"
         }, {
             year: "2017",
             record: "Home:'10' Visiting:'11'"
