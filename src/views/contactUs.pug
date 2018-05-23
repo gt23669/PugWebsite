@@ -17,7 +17,7 @@ html
                 li(class="recordsT"): a(href="/records") Previous Season    
                 li(class="ordersT"): a(href="/orders") Orders
         div(class="contactData")
-            each contact, index in contactData
+            each contact in contactData
                 div(class="contacts")
                     div(class="contactname")= contact.name
                     div(class="contactphone")= contact.phone
