@@ -16,14 +16,13 @@ html
                     li(class="ordersT"): a(href="/orders") Orders
         div(class="teamRoster")
             table(class="teamTable")
-                each member in roster
+                each member in members
                     div(class="teamMember")
                         tr
                             td  
-                                //- img(src="../public/css/images/Fox.jpg")
                                 img(src=member.image class="tableteamimage")                              
                             td(class="tablemembername")=member.name
                             td(class="tablemembernumber")=member.number
                             td(class="tablememberposition")=member.position
                             td(class="tableskill")=member.skill
-                             //- need photo of each teammember
+
