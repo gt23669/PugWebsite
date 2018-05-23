@@ -151,8 +151,9 @@ router.route("/records").get(function (request, response) {
 router.route("/orders").get(function (request, response) {
     // response.sendFile(__dirname + "/views/index.html");
     var data = { title: "Orders Page", h1Text: "Team Orders Page", items:[{
-        image:"/css/images/Blank.png",
-        item:"Hat",
+        // image:"/css/images/Blank.png",
+        image:"/css/images/bagSales.png",
+        item:"Bags",
         price:1.00
     },
     {
