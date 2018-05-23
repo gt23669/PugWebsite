@@ -149,18 +149,18 @@
     ],
     "items": [
         {
-            "image": "/css/images/bagSales.png",
+            "image": "/css/images/SaleItems/bagSales.png",
             "item": "Bags",
             "price": 1.00
         },
         {
-            "image": "/css/images/Blank.png",
-            "item": "Shirt",
+            "image": "/css/images/SaleItems/baseballHatSales.png",
+            "item": "Hats",
             "price": 2.00
         },
         {
-            "image": "/css/images/Blank.png",
-            "item": "Shoes",
+            "image": "/css/images/SaleItems/waterBottleSales.png",
+            "item": "Water Bottles",
             "price": 3.00
         },
         {
