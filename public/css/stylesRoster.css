@@ -18,7 +18,14 @@ body{
     border: solid black 1px;
     border-collapse: collapse;
     margin: 0px auto;
-    
+}
+
+.tdimage{
+    width:400px;
+}
+
+.tableteamimage{
+    width: 60%;
 }
 
 td{

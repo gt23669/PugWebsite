@@ -71,7 +71,7 @@
             "skill": "Speakes loudly"
         },
         {
-            "image": "/css/images/BenJersey.png",
+            "image": "/css/images/Ben-JamminJersey.png",
             "name": "Ben",
             "position": "Right Bench",
             "number": 9,
@@ -149,29 +149,24 @@
     ],
     "items": [
         {
-            "image": "/css/images/bagSales.png",
-            "item": "Bags",
-            "price": 1.00
+            "image": "/css/images/SaleItems/bagSales.png",
+            "item": "Duffle Bag",
+            "price": 25.00
         },
         {
-            "image": "/css/images/Blank.png",
-            "item": "Shirt",
-            "price": 2.00
+            "image": "/css/images/SaleItems/baseballHatSales.png",
+            "item": "Baseball Hat",
+            "price": 12.00
         },
         {
-            "image": "/css/images/Blank.png",
-            "item": "Shoes",
-            "price": 3.00
+            "image": "/css/images/SaleItems/waterBottleSales.png",
+            "item": "Water Bottles",
+            "price": 17.00
         },
         {
-            "image": "/css/images/Blank.png",
-            "item": "Gloves",
-            "price": 4.00
-        },
-        {
-            "image": "/css/images/Blank.png",
-            "item": "Pants",
-            "price": 5.00
+            "image": "/css/images/SaleItems/jerseySale.png",
+            "item": "Jersey",
+            "price": 30.00
         }
     ],
     "contactData": [
