@@ -45,9 +45,9 @@
         {
             "image": "/css/images/ThompsonJersey.png",
             "name": "Mrs. Thompson",
-            "position": "Blank Position field",
+            "position": "Bench",
             "number": 5,
-            "skill": "Blank Skill Field"
+            "skill": "Owns a pet tarantiula"
         },
         {
             "image": "/css/images/WarnerJersey.png",
@@ -93,13 +93,13 @@
         },
         {
             "image": "/css/images/Blank.png",
-            "name": "Mr. Harrison",
-            "position": "Empty Position Field",
+            "name": "A.J.",
+            "position": "Team Captain",
             "number": 12,
-            "skill": "Empty Skill Field"
+            "skill": "Consistently holds top 200 in competitive Destiny"
         },
         {
-            "image": "/css/images/CoxJersey.png",
+            "image": "/css/images/Blank.png",
             "name": "Mr. Cox",
             "position": "Played water polo",
             "number": 13,
@@ -107,10 +107,10 @@
         },
         {
             "image": "/css/images/Blank.png",
-            "name": "JP",
-            "position": "Empty Position Field",
+            "name": "Justine",
+            "position": "Bench",
             "number": 14,
-            "skill": "Empty Skill Field"
+            "skill": "Can drive a stick shift"
         }
     ],
     "records": [
