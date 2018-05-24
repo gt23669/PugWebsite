@@ -11,7 +11,7 @@
     width: 75%;
     /* list-style: none; */
     margin: 0px auto;
-    
+    transition: width 5s, height 5s;
 }
 
 .categories li{
@@ -29,28 +29,39 @@ a{
     font-weight: bold;
     -webkit-background-clip:content-box;
     background-color: gold;
+
+    width: 5%;
+    height:5%;
 }
 
 .contactT:hover{
     color: gray;
     font-weight: bold;
     background-color: gold;
+    width: 5%;
+    height:5%;
 }
 
 .recordsT:hover{
     color: gray;
     font-weight: bold;
     background-color: gold;
+    width: 5%;
+    height:5%;
 }
 
 .rosterT:hover{
     color: gray;
     font-weight: bold;
     background-color: gold;
+    width: 5%;
+    height:5%;
 }
 
 .ordersT:hover{
     color: gray;
     font-weight: bold;
     background-color: gold;
+    width: 5%;
+    height:5%;
 }
